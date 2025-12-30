@@ -26,7 +26,7 @@ Do road segments with active construction experience higher traffic accident rat
 - Negative Binomial regression provided a substantially better fit (AIC improvement > 80,000)
 - Construction zones account for ~8% of all NYC crashes despite representing a small share of roadway segments
 
-  ![Project cover](assets/cover.png)
+  ![Project cover](cover.png)
 
 ## Tools & Technologies
 - Python (pandas, geopandas, statsmodels)
@@ -36,6 +36,27 @@ Do road segments with active construction experience higher traffic accident rat
 
 ## Implications
 Results highlight construction zones as priority targets for traffic safety interventions, enforcement, and infrastructure planning in urban environments.
+
+## Data Sources (not included in repo due to size)
+This project uses 2023 NYC Open Data. The raw files are not stored in this repository because they are large. Download them directly from:
+
+Motor Vehicle Collisions – Crashes (NYPD)
+NYC Open Data dataset page: 
+data.cityofnewyork.us
+
+Centerline (NYC Street Centerline / CSCL)
+NYC Open Data dataset page: 
+data.cityofnewyork.us
+
+(Also listed on Data.gov with metadata updates.) 
+Data.gov
+
+Street Construction Permits (2022–Present)
+NYC Open Data dataset page: 
+data.cityofnewyork.us
+
+(Also listed on Data.gov.) 
+Data.gov
 
 ## Author
 Ahmadou Diallo  
