@@ -26,6 +26,8 @@ Do road segments with active construction experience higher traffic accident rat
 - Negative Binomial regression provided a substantially better fit (AIC improvement > 80,000)
 - Construction zones account for ~8% of all NYC crashes despite representing a small share of roadway segments
 
+  ![Project cover](assets/cover.png)
+
 ## Tools & Technologies
 - Python (pandas, geopandas, statsmodels)
 - Spatial joins and geospatial preprocessing
